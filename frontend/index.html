@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>Sports Talent Assessment</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>🏋️ AI Sports Talent Assessment</h1>
+  <form id="uploadForm">
+    <input type="text" name="name" placeholder="Enter Name" required>
+    <input type="file" name="video" accept="video/*" required>
+    <button type="submit">Upload & Analyze</button>
+  </form>
+  <pre id="result"></pre>
+  <h2>Leaderboard</h2>
+  <button onclick="loadLeaderboard()">Refresh</button>
+  <pre id="board"></pre>
+  <script src="script.js"></script>
+</body>
+</html>
